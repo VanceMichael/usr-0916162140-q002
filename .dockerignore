@@ -1,0 +1,12 @@
+.git
+.env
+*.key
+*.pem
+node_modules
+.venv
+venv
+build
+coverage
+data
+__pycache__
+*.pyc

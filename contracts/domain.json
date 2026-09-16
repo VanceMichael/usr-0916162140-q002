@@ -1,0 +1,17 @@
+{
+  "service": "quantum-key-lease",
+  "aggregate": "key_range",
+  "entities": [
+    "link_batch",
+    "lease",
+    "consumption",
+    "security_event"
+  ],
+  "states": [
+    "available",
+    "leased",
+    "consumed",
+    "frozen"
+  ],
+  "health_endpoint": "/healthz"
+}
